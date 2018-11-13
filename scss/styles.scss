@@ -1,7 +1,10 @@
 @charset 'utf-8';
 
+@import 'variables';
 @import 'partials';
 @import 'mixins';
 
+
+@import 'type';
 @import 'body';
-@import 'variables';
+@import 'header';

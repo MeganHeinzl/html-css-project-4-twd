@@ -1,7 +1,45 @@
-//testing to see if it compiles
 
-h1{
-    color: red;
+
+@charset "utf-8";
+/* CSS Document */
+//resets
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* Image sizing reset */
+img{
+    max-width: 100%;
+    height: auto;
 }
 
-//it works :) feel free to delete
+p{
+    line-height: 1.4;
+}
+
+h1, h2, p{
+    margin-top: 0;
+}
+// end resets 
+
+
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+main{
+    width: 100%;
+    background-color: $transparency;
+
+}
