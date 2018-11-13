@@ -40,6 +40,14 @@ body{
 }
 main{
     width: 100%;
+    height: calc(100vh - 134px);
     background-color: $transparency;
 
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border-top:none;
+    border-bottom: $med-grey 1px solid;
 }
