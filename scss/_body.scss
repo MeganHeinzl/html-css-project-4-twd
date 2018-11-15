@@ -37,7 +37,9 @@ h1, h2, p{
     background-size: cover;
     min-height: 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;   
     margin: 0;
+    overflow-y: overlay;
 }
 .mainmain{
     width: 100%;
@@ -45,6 +47,7 @@ h1, h2, p{
     background-color: $transparency;
     margin:0;
     padding: 10px;
+
 
 }
 
