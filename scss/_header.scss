@@ -1,7 +1,9 @@
-.mainheader{
-    width: 100vw;
+.mainhead{
+    width: 100%;
     background-color: white;
     height: 134px;
+    position:sticky;
+    top:0;
 }
 .mainnav{
     max-width: 1180px;
