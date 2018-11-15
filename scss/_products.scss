@@ -1,0 +1,19 @@
+.productsGrid{
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.product{
+    border: $dark-grey 1px solid;
+    width: 220px;
+    height: 300px;
+}
+.product a{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+}
