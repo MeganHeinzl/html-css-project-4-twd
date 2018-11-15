@@ -17,13 +17,17 @@
 
 }
 
+.landing-main {
+    max-width: 100%;
+}
+
 .landing-nav {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 60px;
     padding-top: 200px;
     font-size: 26px;
+    margin: 0;
 }
