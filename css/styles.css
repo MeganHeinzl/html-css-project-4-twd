@@ -1,0 +1,81 @@
+h1 {
+  text-transform: capitalize;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  line-height: 60px;
+  padding: 10px 0;
+  padding-bottom: 0;
+  margin: 0; }
+
+/* CSS Document */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* Image sizing reset */
+img {
+  max-width: 100%;
+  height: auto; }
+
+p {
+  line-height: 1.4; }
+
+h1, h2, p {
+  margin-top: 0; }
+
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0; }
+
+main {
+  width: 100%;
+  height: calc(100vh - 134px);
+  background-color: #ffffffaf; }
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+  border-top: none;
+  border-bottom: #A1A1A1 1px solid; }
+
+header {
+  width: 100vw;
+  background-color: white;
+  height: 134px; }
+
+nav {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; }
+
+a {
+  padding-top: 10px; }
+
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  width: 50vw; }
+
+li {
+  flex: 1;
+  text-align: center;
+  line-height: 134px; }
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Josefin Sans", sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
