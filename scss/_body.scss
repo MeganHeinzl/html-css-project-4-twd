@@ -5,6 +5,7 @@
 //resets
 html {
     box-sizing: border-box;
+
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -34,14 +35,16 @@ h1, h2, p{
 .mainbody{
     background-image: url("../images/background.jpg");
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     margin: 0;
 }
 .mainmain{
     width: 100%;
-    height: calc(100vh - 134px);
+    min-height: calc(100vh - 134px);
     background-color: $transparency;
+    margin:0;
+    padding: 10px;
 
 }
 
