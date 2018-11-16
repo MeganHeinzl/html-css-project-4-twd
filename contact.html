@@ -5,47 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Connect - Moss and Fern</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
   </head>
-  <body class = "mainbody">
-    <header class="mainhead"><nav class="mainnav"><a href="/index.html"><img src="images/logo.png" alt="moss and fern logo"></a>
+  <body class="mainbody">
+    <header class="mainhead">
+      <nav class="mainnav">
+        <a href="/index.html"
+          ><img src="images/logo.png" alt="moss and fern logo"
+        /></a>
         <ul>
           <li><a href="/contact.html">Connect</a></li>
           <li><a href="/shop.html">Shop</a></li>
           <li><a href="#">Cart (0)</a></li>
         </ul>
-    </nav></header>
+      </nav>
+    </header>
 
-    <div class="wrapper"><main class = "mainmain">
-      <h1>Connect</h1>
-      <hr>
-      <form action="GET">
-        <label for="name">Name: </label>
-        <input type="text" id="name">
+    <div class="wrapper">
+      <main class="mainmain">
+        <h1>Connect</h1>
+        <hr />
+        <form action="#" method="get">
+          <label for="name">Name: </label> <input type="text" id="name" />
 
-        <label for="email">Email: </label>
-        <input type="email" id="email">
+          <label for="email">Email: </label> <input type="email" id="email" />
 
-        <label for="dropdown">Topic: </label>
-        <select name="dropdown" id="dropdown">
-          <optgroup label = "Questions">
-              <option value="avail">Availability</option>
-              <option value="sizing">Custom Sizing</option>
-              <option value="ship">Shipping</option>
-            </optgroup>
+          <label for="topic">Topic: </label>
+          <input type="radio" name="topic" value="size" checked />Custom Sizing
+          <input type="radio" name="topic" value="avail" />Availability
+          Inquiries <input type="radio" name="topic" value="shipping" />Shipping
+          Inquiries <input type="radio" name="topic" value="comment" />Comments
 
-        </select>
+          <label for="comments">Message: </label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+          ></textarea>
 
-        <label for="comments">Comments: </label>
-        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-
-      </form>
-
-
-    </main></div>
+          <input type="checkbox" name="emaillist" id="emaillist" />
+          <label for="emaillist"
+            >Check this to be added to our email list to receive exclusive
+            offers and news.</label
+          >
+          <input type="submit" value="Submit" />
+        </form>
+      </main>
+    </div>
+    <footer class="mainfoot">
+        <p>&copy Naomi and Megan 2018</p>
+                </footer>
   </body>
 </html>
