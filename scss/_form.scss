@@ -1,31 +1,9 @@
 form{
     width: 1082px;
-    margin: 20px auto;
+    margin: 0 auto;
     border: $med-grey 1px solid;
     padding: 20px;
 }
-
-label{
-    font-family: $header-font;
-    font-size: 28px;
-
-}
-input{
-    margin: 0px 0 10px;
-}
-input[type=text], input[type=email]{
-    height: 40px;
-    width: 50%;
-}
-textarea{
-    width: 90%;
-}
-
-label[for=emaillist]{
-    font-family:$body-font;
-    font-size: 14pt;
-}
-
 
 form p {
     display: inline;
@@ -33,3 +11,56 @@ form p {
     font-size: 14pt;
     padding-left: 5px;
 }
+
+label{
+    font-family: $header-font;
+    font-size: 28px;
+
+}
+
+label[for=emaillist]{
+    font-family:$body-font;
+    font-size: 14pt;
+}
+input{
+    margin: 0px 0 10px;
+    font-family: $body-font;
+    color: $dark-grey;
+    font-size: 24px;
+}
+input[type=text], input[type=email]{
+    height: 40px;
+    width: calc(50% - 40px);
+}
+
+input[type=submit]{
+    border: $dark-grey solid 1px;
+    border-radius: 5px;
+    color: black;
+    background-color: $light-grey;
+    font-family: $header-font;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+input[type=submit]:target, input[type=submit]:focus, input[type=submit]:hover{
+
+    border: white 1px solid;
+}
+input[type=submit]:active{
+    background-color: $med-grey;
+}
+textarea{
+    width: 1042px;
+    height: 220px;
+    resize: none;
+    margin: 0px 0 10px;
+    font-family: $body-font;
+    color: $dark-grey;
+    font-size: 24px;
+}
+
+
+
