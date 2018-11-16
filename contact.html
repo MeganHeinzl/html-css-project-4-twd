@@ -14,6 +14,9 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
   </head>
   <body class="mainbody">
     <header class="mainhead">
@@ -34,35 +37,37 @@
         <h1>Connect</h1>
         <hr />
         <form action="#" method="get">
-          <label for="name">Name: </label> <input type="text" id="name" />
-
-          <label for="email">Email: </label> <input type="email" id="email" />
-
-          <label for="topic">Topic: </label>
-          <input type="radio" name="topic" value="size" checked />Custom Sizing
-          <input type="radio" name="topic" value="avail" />Availability
-          Inquiries <input type="radio" name="topic" value="shipping" />Shipping
-          Inquiries <input type="radio" name="topic" value="comment" />Comments
-
-          <label for="comments">Message: </label>
+          <label for="name">Name </label> <br />
+          <input type="text" id="name" /> <br />
+          <label for="email">Email </label> <br />
+          <input type="email" id="email" /> <br />
+          <label for="topic">Topic </label><br />
+          <input type="radio" name="topic" value="size" checked />
+          <p>Custom Sizing</p><br>
+          <input type="radio" name="topic" value="avail" />
+          <p>Availability Inquiries</p><br>
+          <input type="radio" name="topic" value="shipping" />
+          <p>Shipping Inquiries</p><br>
+          <input type="radio" name="topic" value="comment" />
+          <p>Comments</p>
+          <br />
+          <label for="comments">Message</label><br />
           <textarea
             name="comments"
             id="comments"
             cols="30"
             rows="10"
           ></textarea>
-
+          <br />
           <input type="checkbox" name="emaillist" id="emaillist" />
           <label for="emaillist"
             >Check this to be added to our email list to receive exclusive
             offers and news.</label
-          >
+          ><br />
           <input type="submit" value="Submit" />
         </form>
       </main>
     </div>
-    <footer class="mainfoot">
-        <p>&copy Naomi and Megan 2018</p>
-                </footer>
+    <footer class="mainfoot"><span><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i></span><p>&copy Moss + Fern Pet Apparel Co. 2018</p></footer>
   </body>
 </html>

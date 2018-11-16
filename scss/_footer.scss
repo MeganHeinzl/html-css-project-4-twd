@@ -4,10 +4,20 @@
     background-color: black;
     color: white;
     z-index: 99;
+justify-content: center;
+    display: flex;
+    align-content: center;
 }
 .mainfoot p{
     font-family: $body-font;
     text-align: center;
     line-height: 40px;
     bottom: 0;
+    max-height: 39px;
+}
+.mainfoot i{
+    font-size: 35px;
+}
+.mainfoot span{
+    padding-right: 10px;
 }

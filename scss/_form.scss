@@ -1,0 +1,35 @@
+form{
+    width: 1082px;
+    margin: 20px auto;
+    border: $med-grey 1px solid;
+    padding: 20px;
+}
+
+label{
+    font-family: $header-font;
+    font-size: 28px;
+
+}
+input{
+    margin: 0px 0 10px;
+}
+input[type=text], input[type=email]{
+    height: 40px;
+    width: 50%;
+}
+textarea{
+    width: 90%;
+}
+
+label[for=emaillist]{
+    font-family:$body-font;
+    font-size: 14pt;
+}
+
+
+form p {
+    display: inline;
+    font-family: $body-font;
+    font-size: 14pt;
+    padding-left: 5px;
+}
