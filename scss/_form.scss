@@ -32,7 +32,7 @@ input[type=text], input[type=email]{
     height: 40px;
     width: 280px;
 }
-
+/*------ Your original button -----
 input[type=submit]{
     border: $dark-grey solid 1px;
     border-radius: 5px;
@@ -43,6 +43,11 @@ input[type=submit]{
     height: 50px;
     line-height: 50px;
     margin: 0 auto;
+} */
+.submit-btn {
+    width: 250px;
+    height: 40px;
+    background-color: darkgreen;
 }
 
 input[type=submit]:target, input[type=submit]:focus, input[type=submit]:hover{

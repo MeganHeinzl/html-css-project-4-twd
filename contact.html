@@ -37,11 +37,12 @@
       <main class="mainmain">
         <h1>Connect</h1>
 
-        <form action="#" method="get" class="conform"> 
-          <label for="name">Name </label> <br />
-          <input type="text" id="name" required/> <br />
-          <label for="email">Email </label> <br />
-          <input type="email" id="email" required/> <br />
+        <form action="#" method="get" class="conform">
+
+          <label for="name"></label> <br />
+          <input type="text" id="name" placeholder="Name" required/>
+          <label for="email"></label> <br />
+          <input type="email" id="email" placeholder="Email" required/> <br />
           <label for="topic">Topic </label><br />
           <input type="radio" name="topic" value="size" checked />
           <p>Custom Sizing</p><br>
@@ -51,12 +52,12 @@
           <p>Shipping Inquiries</p><br>
           <input type="radio" name="topic" value="comment" />
           <p>Comments</p>
-          <br />
-          <label for="comments">Message</label><br />
+        
+          <label for="comments"></label><br />
           <textarea
             name="comments"
             id="comments"
-            required
+            placeholder="Message..." required
           ></textarea>
           <br />
           <input type="checkbox" name="emaillist" id="emaillist" />
@@ -64,7 +65,9 @@
             >Check this to be added to our email list to receive exclusive
             offers and news.</label
           ><br />
-          <input type="submit" value="Submit" />
+          <br>
+          <button class="submit-btn">Submit</button>
+          <!--<input type="submit" value="Submit" />-->
         </form>
       </main>
     </div>
