@@ -1,23 +1,45 @@
 .productwrap{
 
-    padding: 20px 38px;
+    padding: 20px 2.5%;
 }
 
-.contentwrap{
-    display: flex; 
-    flex: 1;
+
+.resize{
+    width: 57%;
+    min-width: 280px;
+float: left;
+margin-right: 20px;
+margin-bottom: 10px;
 }
 
-.contentwrap img{
-    padding-right: 20px;
+.resize img{
+    border: $med-grey 1px solid;
+
+    display: block;
+    width: 100%;
+    height: auto;
 }
-.contentwrap h3{
-    flex: none;
-    display: inline;
-}
+
 .contentwrap p{
     display: inline;
+    font-family: $body-font;
+
 }
-.contentwrap span{
+.contentwrap .information{
     display: block;
+    width: 480px;
+    margin-left: 20px;
+}
+
+
+select{
+    width: 150px;
+    margin: 20px 0;
+    height: 40px;
+    color: $dark-grey;
+}
+
+option{
+    font-family: $body-font;
+    color: $dark-grey;
 }

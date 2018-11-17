@@ -18,6 +18,12 @@
     height: 300px;
 
 }
+
+.product:hover,
+.product:target,
+.product:focus{
+    background-color: white;
+}
 .product img{
     margin: 9px;
 }
