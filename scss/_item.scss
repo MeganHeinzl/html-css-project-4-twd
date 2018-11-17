@@ -46,3 +46,26 @@ option{
     font-family: $body-font;
     color: $dark-grey;
 }
+
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width:660px){
+
+    .contentwrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resize {
+        max-width: 100%;
+    }
+
+
+    .information {
+    max-width: 100%;
+
+    }
+}
