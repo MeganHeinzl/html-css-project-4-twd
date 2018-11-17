@@ -35,6 +35,12 @@ a{
 }
 
 @media (max-width:660px){
+    .mainhead{
+        height: 40px;
+    }
+    .mainnav li{
+        line-height: 40px;
+    }
     .mainnav a img{
         display: none;
     }

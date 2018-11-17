@@ -64,3 +64,8 @@ hr{
 
     }
 }
+@media (max-width:660px){
+    .mainmain{
+    min-height: calc(100vh - 80px);
+    }
+}
