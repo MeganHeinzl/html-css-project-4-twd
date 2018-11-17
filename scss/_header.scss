@@ -30,3 +30,19 @@ a{
     color: black;
     font-family: $header-font;
 }
+.hidden{
+    display: none;
+}
+
+@media (max-width:660px){
+    .mainnav a img{
+        display: none;
+    }
+    .mainnav ul{
+        width: 100vw;
+        padding: 0;
+    }
+    .hidden{
+        display: list-item;
+    }
+}

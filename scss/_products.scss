@@ -10,7 +10,7 @@
 .product{
     border: $dark-grey 1px solid;
     width: 220px;
-    height: 280px;
+    height: 300px;
     background-color: $transparency;
 }
 .product a{
@@ -26,6 +26,8 @@
 }
 .product img{
     margin: 9px;
+    width: 200px;
+    height: 200px;
 }
 .product h2{
     text-align: center;
