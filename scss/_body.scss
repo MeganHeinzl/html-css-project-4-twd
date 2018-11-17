@@ -57,3 +57,10 @@ hr{
     border-top:none;
     border-bottom: $med-grey 1px solid;
 }
+
+@media (max-width: 1180px){
+    .mainbody{
+        overflow-y: auto;
+
+    }
+}

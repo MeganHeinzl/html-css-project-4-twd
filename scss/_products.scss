@@ -31,3 +31,19 @@
     text-align: center;
     color: black;
 }
+
+@media (max-width: 780px){
+    .productsGrid{
+        width: 460px;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media (max-width: 500px){
+    .productsGrid{
+        width: 220px;
+        grid-template-columns: 1fr;
+
+    }
+}
