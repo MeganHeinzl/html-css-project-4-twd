@@ -95,3 +95,56 @@
 }
 
 
+@media (max-width: 750px) {
+
+
+    .mainfoot{
+        width: 100%;
+        height: 50px;
+        background-color: $mf-green;
+        color: white;
+        z-index: 99;
+        padding:10px;
+        margin-bottom: 0;
+        position: relative;
+    }
+    
+    .mainfoot p{
+        font-family: $body-font;
+        text-align: center;
+        bottom: 0;
+        font-size: 14px;
+        line-height: 15px;
+    
+    }
+    
+    .mainfoot i{
+        font-size: 29px;
+    }
+
+    .social-media {
+        display: flex;
+    }
+    
+    .mainfoot a{
+        color: white;
+        margin: 5px;
+    }
+
+    .education {
+        padding-top: 10px;
+        position: absolute;
+        top:0;
+        right: 0
+    }
+
+    .copyright {
+    
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+
+}
+
