@@ -59,5 +59,7 @@
     .hidden{
         display: list-item;
         border: black 2px solid;
+        max-width: 40px;
+        margin-left: 30px;
     }
 }
