@@ -124,7 +124,7 @@ option{
 
 }
 
-@media (max-width:660px){
+@media (max-width:800px){
 
     .contentwrap {
         display: flex;
@@ -133,13 +133,24 @@ option{
 
     .resize {
         max-width: 100%;
+        margin: 0 auto 20px;
     }
 
 
-    .information {
-    max-width: 100%;
+    .contentwrap .information {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 
     }
+    .productwrap {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    
+        }
 
     .cart-btn {
         width: 100%;
@@ -151,9 +162,11 @@ option{
     }
 
     .contentwrap .information{
-        display: block;
-        width: 460px;
-        margin-left: 0;
+        // display: block;
+        // // width: 460px;
+        // // margin-left: 0;
+        // width: 100%;
+        // margin: 0;
     }
 
     .sizes {
