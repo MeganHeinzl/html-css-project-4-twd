@@ -30,9 +30,7 @@
     text-decoration: none;
     color: black;
     font-family: $header-font;
-    width: 100%;
-    height: 100%;
-    display: block;
+
 }
 
 .hidden{
@@ -48,6 +46,12 @@
     }
     .mainnav li{
         line-height: 38px;
+        width: 100%;
+        height: 100%;
+
+    }
+    .mainnav a{
+        display: block;
     }
     .mainnav a img{
         display: none;
