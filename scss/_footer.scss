@@ -46,23 +46,26 @@
 
 .mainfoot{
     width: 100%;
-    height: 60px;
-    background-color: black;
+    height: 55px;
+    background-color: $mf-green;
     color: white;
     z-index: 99;
     display: flex;
     justify-content: space-between;
     padding:10px;
+    margin-bottom: 0;
 }
 
 .mainfoot p{
     font-family: $body-font;
     text-align: right;
     bottom: 0;
+    font-size: 14px;
 }
 
 .mainfoot i{
-    font-size: 32px;
+    font-size: 29px;
+    line-height: 40px;
 }
 
 .mainfoot a{
