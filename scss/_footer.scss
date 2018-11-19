@@ -1,4 +1,4 @@
-.mainfoot{
+/* .mainfoot{
     width: 100%;
     height: 40px;
     background-color: black;
@@ -17,8 +17,6 @@
 }
 .mainfoot i{
     font-size: 32px;
-    position: fixed;
-    left:0;
 }
 .mainfoot div{
     padding-right: 10px;
@@ -43,4 +41,31 @@
     .mainfoot p{
         font-size: 3vw;
     }
+} */
+
+
+.mainfoot{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.mainfoot p{
+    font-family: $body-font;
+    text-align: right;
+    bottom: 0;
+}
+
+.mainfoot i{
+    font-size: 32px;
+}
+
+.mainfoot a{
+    color: white;
+    margin: 5px;
 }
