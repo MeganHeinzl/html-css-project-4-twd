@@ -43,6 +43,9 @@
     .mainhead{
         height: 40px;
     }
+    .mainnav{
+        height: 40px;
+    }
     .mainnav li{
         line-height: 38px;
     }
@@ -55,6 +58,6 @@
     }
     .hidden{
         display: list-item;
-        border: black 1px solid;
+        border: black 2px solid;
     }
 }
