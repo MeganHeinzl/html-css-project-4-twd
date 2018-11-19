@@ -3,7 +3,7 @@
 .landing {
     background-image: url(/images/shepherd.jpg);
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 
 .landing-header {
     display: block;
-    padding: 50px;
+    padding: 5vh 0 20vh;
     margin: 0 auto;
 }
 
@@ -26,7 +26,8 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding-top: 200px;
+    // padding-top: 200px;
+    padding: 5vh;
     font-size: 26px;
     margin: 0;
 }
@@ -39,7 +40,8 @@
     color: white;
     font-size: 13px;
     margin: 0 auto;
-    margin-top: 330px;
+    margin-top: auto;
+    margin-bottom: 5vh;
     z-index: 99;
     justify-content: center;
     font-family: $body-font;
@@ -53,15 +55,15 @@
 
 @media (max-width: 1000px){
 
-    .landing {
-        background-image: url(/images/shepherd.jpg);
-        background-size: cover;
-        height: 100vh;
-        background-repeat: no-repeat;
-        display:flex;
-        flex-direction: column;
-        margin: 0;
-    }
+    // .landing {
+    //     background-image: url(/images/shepherd.jpg);
+    //     background-size: cover;
+    //     height: 100vh;
+    //     background-repeat: no-repeat;
+    //     display:flex;
+    //     flex-direction: column;
+    //     margin: 0;
+    // }
 
     .landing-main {
         max-width: 100%;
@@ -69,8 +71,9 @@
 
     .landing-header {
         display: block;
-        padding: 50px;
         margin: 0 auto;
+
+        padding-top: 5vh;
     }
 
     .landing-nav {
@@ -81,26 +84,26 @@
         justify-content: center;
         list-style: none;
         font-size: 26px;
-        margin: auto;
-        padding-top: 50px;
+        height: 25vh;
+
+
     }
 
     .landing-nav li {
-        padding: 30px;
+        padding: 3vh;
         text-align: center;
     }
 
     .landing-footer {
         color: white;
         font-size: 13px;
-        margin: 0 auto;
-        margin-top: 163px;
+        margin-top: auto;
+        margin-bottom: 5vh;
         z-index: 99;
         justify-content: center;
         font-family: $body-font;
         text-align: center;
         line-height: 10px;
-
     }
 
 }
