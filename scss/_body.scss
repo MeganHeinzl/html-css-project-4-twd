@@ -63,6 +63,10 @@ hr{
         overflow-y: auto;
 
     }
+   .mainbody > .mainmain{
+        background-color: white;
+        opacity: .7;
+    }
 }
 @media (max-width:660px){
     .mainmain{
